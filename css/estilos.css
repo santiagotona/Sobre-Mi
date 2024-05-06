@@ -1,0 +1,54 @@
+/* Estilos para la barra de navegación */
+header {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Estilos para el cuadro */
+.yo {
+    width: 70%;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffffb0;
+    box-shadow: 1px 8px 4px 8px rgba(2, 255, 15, 0.404);
+    border-radius: 10px;
+    margin-top: 48px; /* Espacio para dejar el encabezado arriba */
+}
+
+
+/* Estilos para los enlaces de la barra de navegación */
+header a {
+    
+    display: inline-block;
+    color: #ffffff; /* Color del texto de los enlaces */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces de la barra de navegación al pasar el ratón */
+header a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+    color: #000; /* Cambio de color de texto al pasar el ratón */
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 35px;
+    font-family: "Sedan SC", serif;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
